@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+    <div class="container">
+      <div class="page-header" id="banner">
+        <div class="row">
+
+          <div class="post col-sm-9">
+            <h2 class="post-title">{{ page.title }}</h2>
+            <p><span class="post-date">{{ page.date | date: "%Y.%m.%d." }}</span></p>
+            <div style="text-align: justify;">{{ content }}</div>
+          </div>
+
+          <div class="related col-sm-3">
+            <div style="height:30px"></div>
+            <h4>Kapcsolódó oldalak</h4>
+            <div class="list-group" >
+            {% case page.category %}
+              {% when 'news' %}
+              <a class="list-group-item" href="/cikkek">Minden cikk</a>
+              {% else %}
+              <!-- unknown category -->
+            {% endcase %}
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+

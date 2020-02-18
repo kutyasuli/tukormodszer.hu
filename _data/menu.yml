@@ -1,0 +1,31 @@
+- name: Kezdőlap
+  link: /
+- name: A módszerről
+  link: /a-modszer-leirasa
+  submenu:
+    - name: A módszer leírása
+      link: /a-modszer-leirasa
+    - name: A módszer története
+      link: /a-modszer-tortenete
+- name: Tükör iskolák
+  link: https://kutyasuli.hu
+- name: Sikertörténetek
+  link: /sikertortenetek
+- name: Cikkek, videók
+  link: /cikkek
+  submenu:
+    - name: Cikkek
+      link: /cikkek
+    - name: Videók
+      link: /videok
+    - name: Kiadványok
+      link: /kiadvanyok
+- name: Egyéb
+  link: /tukor-terapia
+  submenu:
+    - name: Tükör terápia
+      link: /tukor-terapia
+    - name: Bemutatócsoport
+      link: /bemutatocsoport
+    - name: K99
+      link: /k99
